@@ -38,4 +38,4 @@ def main():
     sys.exit(app.exec())  # mantém a GUI viva
 
 if __name__ == "__main__":
-    main()  # chama de verdade
+    main()  # <<< ESSENCIAL: chama a função
