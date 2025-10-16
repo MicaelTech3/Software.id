@@ -7,7 +7,7 @@ from PySide6.QtCore import Qt
 app = QApplication(sys.argv)
 
 win = QMainWindow()
-win.setWindowTitle("App Remoto (PySide6)")
+win.setWindowTitle("App Avisos")
 
 central = QWidget()
 layout = QVBoxLayout(central)
