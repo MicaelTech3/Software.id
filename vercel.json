@@ -1,17 +1,7 @@
 {
+  "outputDirectory": "public",
   "headers": [
-    {
-      "source": "/app.py",
-      "headers": [
-        { "key": "Content-Type", "value": "application/octet-stream" },
-        { "key": "Content-Disposition", "value": "attachment; filename=\"app.py\"" }
-      ]
-    },
-    {
-      "source": "/boot.json",
-      "headers": [
-        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
-      ]
-    }
+    { "source": "/(.*)\\.py",   "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }] },
+    { "source": "/(.*)\\.json", "headers": [{ "key": "Content-Type", "value": "application/json; charset=utf-8" }] }
   ]
 }
