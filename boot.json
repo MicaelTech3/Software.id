@@ -1,5 +1,5 @@
 {
-  "version": "2025.10.15.3",
+  "version": "2025.10.15.6",
   "entry_url": "https://software-id-json.vercel.app/app.py",
   "deps": ["requests", "PySide6", "python-vlc"]
 }

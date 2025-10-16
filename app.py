@@ -28,6 +28,7 @@ def main():
             QMessageBox.critical(win, "Erro", str(e))
     btn.clicked.connect(do_http)
 
+    # 🔻 AS LINHAS QUE FALTAVAM:
     layout.addWidget(lbl)
     layout.addWidget(btn)
 
@@ -38,4 +39,4 @@ def main():
     sys.exit(app.exec())  # mantém a GUI viva
 
 if __name__ == "__main__":
-    main()  # <<< ESSENCIAL: chama a função
+    main()  # chama de verdade
