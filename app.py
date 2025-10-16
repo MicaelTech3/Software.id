@@ -12,7 +12,7 @@ win.setWindowTitle("App Remoto (PySide6)")
 central = QWidget()
 layout = QVBoxLayout(central)
 
-lbl = QLabel("✅ App remoto carregado do Vercel")
+lbl = QLabel("✅ App remoto carregado do vVercel")
 lbl.setAlignment(Qt.AlignCenter)
 
 btn = QPushButton("Testar HTTP")
