@@ -1,0 +1,17 @@
+{
+  "headers": [
+    {
+      "source": "/app.py",
+      "headers": [
+        { "key": "Content-Type", "value": "application/octet-stream" },
+        { "key": "Content-Disposition", "value": "attachment; filename=\"app.py\"" }
+      ]
+    },
+    {
+      "source": "/boot.json",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json; charset=utf-8" }
+      ]
+    }
+  ]
+}
